@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CS IA</title>
+    <link href="/static/the_home_page.css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<img src="/static/candor-school-logo.png" alt="Logo">
+</header>
+
+<section>
+  <nav>
+  	<h5><u><i>House Points</i></u></h5>
+    <ul>
+        <li>Blue {{ scores[0] }}</li>
+        <li>Red {{ scores[1] }}</li>
+        <li>Green {{ scores[2] }}</li>
+        <li>Yellow {{ scores[3] }}</li>
+        <li><a href="{{ url_for('update_scores') }}">Update Scores</a></li>
+    </ul>
+  </nav>
+
+  <article>
+	<marquee direction="left" scrollamount="20">
+		<img src="/static/IMG_4808.jpg" class="image11" alt="Picture">
+		<img src="/static/IMG_4810.jpg" class="image12" alt="Picture">
+		<img src="/static/IMG_4812.jpg" class="image13" alt="Picture">
+		<img src="/static/IMG_4815.jpg" class="image14" alt="Picture">
+	</marquee>
+  </article>
+</section>
+<footer>
+<table>
+  <tr>
+  	<th><a href="http://127.0.0.1:5000/main_home_page">Home</a></th>
+    <th><a href="https://candorschool.edu.in/">About</a></th>
+    <th><a href="http://127.0.0.1:5000/">Sign Out</a></th>
+  </tr>
+
+</table>
+</footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{box-sizing: border-box;}
+
+h1{color:blue; font-size: 400%; text-align: center;}
+
+body{background: #dcae96; font-size: 140%; font-family: cursive; color: #800000;}
+
+marquee{text-align: center;}
+
+table{font-family: cursive;  width: 100%; text-align: center; font-size: 250%;}
+
+tr, th{ text-align: center;  background-color: #008080;}
+
+.image1{display: block; margin-left: auto; margin-right: auto;}
+
