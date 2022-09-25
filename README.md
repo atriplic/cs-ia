@@ -1,2 +1,2 @@
 # cs-ia
-# Read the file "CS Project Instruction Manual"
+# Read the file "CS Project Instruction Manual.pdf"
