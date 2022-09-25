@@ -1,2 +1,2 @@
 # cs-ia
-# Read the file "Computer Science Project Instruction Manual.pdf"
+# Read the file "CS Project Instruction Manual"
